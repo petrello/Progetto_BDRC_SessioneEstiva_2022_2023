@@ -27,10 +27,10 @@ Di seguito saranno elencate le parti che vanno a costituire il progetto d'esame 
 
 ## Demo del progetto
 #### Autenticazione utente Admin
-https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/bee23d92-bc07-4d8b-bd54-635fff8f379f
+https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/1e817910-bd65-4941-86b5-49d2c6a55563
 #### Registrazione di un nuovo utente semplice all'Identity Server
-https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/6005ae20-4408-4bbf-a41b-b4eaa8ea7a18
+https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/18b8809d-55a0-4bfd-83d3-8b192639c14e
 #### Autenticazione utente semplice
-https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/3fe4273c-58ee-421a-97b4-82504f47df9c
+https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/17dca890-c10e-41d6-99a6-3789a0a031ca
 #### Autenticazione utente semplice con Google Authentication (non trattata nella relazione di progetto)
-https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/ebca6eef-aacc-41d0-8a5a-8d1115954831
+https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/1583878f-6829-43fe-bf75-70a672c5ea6e
