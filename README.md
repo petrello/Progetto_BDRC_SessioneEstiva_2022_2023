@@ -26,9 +26,11 @@ Di seguito saranno elencate le parti che vanno a costituire il progetto di Reti 
 + del progetto [Infrastructure](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/Progetto_BDRC_SessioneEstiva_2022_2023) si faccia riferimento al file `DependencyInjectionExtentsion.cs` in cui vengono registrati i servizi di autenticazione ed autorizzazione per l'Api.
 
 ## Demo del progetto
-#### Registrazione di un nuovo utente all'Identity Server
-https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/Assets/Videos/registrazione_autenticazione_utente.mp4
 #### Autenticazione utente Admin
-https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/Assets/Videos/autenticazione_admin.mp4
-#### Autenticazione utente semplice con Google Authentication
-https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/Assets/Videos/google_auth.mp4
+https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/bee23d92-bc07-4d8b-bd54-635fff8f379f
+#### Registrazione di un nuovo utente semplice all'Identity Server
+https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/6005ae20-4408-4bbf-a41b-b4eaa8ea7a18
+#### Autenticazione utente semplice
+https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/3fe4273c-58ee-421a-97b4-82504f47df9c
+#### Autenticazione utente semplice con Google Authentication (non trattata nella relazione di progetto)
+https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/assets/60917147/ebca6eef-aacc-41d0-8a5a-8d1115954831
