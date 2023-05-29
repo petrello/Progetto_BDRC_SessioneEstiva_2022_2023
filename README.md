@@ -15,15 +15,15 @@ Questa parte del progetto non è ancora stata implementata.
 # Progetto per Reti di Calcolatori
 ## Sezioni interessanti
 Di seguito saranno elencate le parti che vanno a costituire il progetto di Reti di Calcolatori:
-+ l'intero progetto [IdentityServer](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/IdentityServer)
-+ l'intero progetto [OcelotApiGateway.Gw](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/OcelotApiGateway.Gw)
-+ l'intero progetto [Client](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/Progetto_BDRC_SessioneEstiva_2022_2023.Client)
-+ del progetto [Api](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/Progetto_BDRC_SessioneEstiva_2022_2023) si faccia riferimento ai file:
++ l'intero progetto [IdentityServer](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/tree/master/IdentityServer)
++ l'intero progetto [OcelotApiGateway.Gw](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/tree/master/OcelotApiGateway.Gw)
++ l'intero progetto [Client](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/tree/master/Progetto_BDRC_SessioneEstiva_2022_2023.Client)
++ del progetto [Api](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/tree/master/Progetto_BDRC_SessioneEstiva_2022_2023) si faccia riferimento ai file:
   - `ApiController.cs`
   - `ItineraryController.cs`
   - `DependencyInjectionExtentsion.cs`
   - `Program.cs`
-+ del progetto [Infrastructure](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/Progetto_BDRC_SessioneEstiva_2022_2023) si faccia riferimento al file `DependencyInjectionExtentsion.cs` in cui vengono registrati i servizi di autenticazione ed autorizzazione per l'Api.
++ del progetto [Infrastructure](https://github.com/petrello/Progetto_BDRC_SessioneEstiva_2022_2023/tree/master/Progetto_BDRC_SessioneEstiva_2022_2023.Infrastructure) si faccia riferimento al file `DependencyInjectionExtentsion.cs` in cui vengono registrati i servizi di autenticazione ed autorizzazione per l'Api
 
 ## Demo del progetto
 #### Autenticazione utente Admin
