@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Progetto_BDRC_SessioneEstiva_2022_2023.Domain": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:61440;http://localhost:61443"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+﻿{
+	"GlobalConfiguration": {
+		"BaseUrl": "https://localhost:5003"
+	},
+	"Routes": [
+		{
+			"UpstreamPathTemplate": "/gateway/itineraries/{id}",
+			"UpstreamHttpMethod": [ "Get", "Delete" ],
+			"DownstreamPathTemplate": "/api/itineraries/{id}",
+			"DownstreamScheme": "https",
+			"RouteIsCaseSensitive": false,
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 2024
+				}
+			],
+			"QoSOptions": {
+				"ExceptionsAllowedBeforeBreaking": 3, // must be > 0
+				"DurationOfBreak": 1000,
+				"TimeoutValue": 5000 // take down requests slower than 5 secs
+			},
+			"AuthenticationOptions": {
+				"AuthenticationProviderKey": "Bearer",
+				//"AllowedScopes": [
+				//	"role",
+				//	"web"
+				//]
+			}
+		},
+		{
+			"UpstreamPathTemplate": "/gateway/itineraries",
+			"UpstreamHttpMethod": [ "Get", "Put" ],
+			"DownstreamPathTemplate": "/api/itineraries",
+			"DownstreamScheme": "https",
+			"RouteIsCaseSensitive": false,
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 2024
+				}
+			],
+			"QoSOptions": {
+				"ExceptionsAllowedBeforeBreaking": 3, // must be > 0
+				"DurationOfBreak": 1000,
+				"TimeoutValue": 5000 // take down requests slower than 5 secs
+			},
+			"AuthenticationOptions": {
+				"AuthenticationProviderKey": "Bearer"
+				//"AllowedScopes": [
+				//	"roles"
+				//]
+			}
+		},
+		{
+			"UpstreamPathTemplate": "/gateway/itineraries",
+			"UpstreamHttpMethod": [ "Post" ],
+			"DownstreamPathTemplate": "/api/itineraries",
+			"DownstreamScheme": "https",
+			"RouteIsCaseSensitive": false,
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 2024
+				}
+			],
+			"QoSOptions": {
+				"ExceptionsAllowedBeforeBreaking": 3, // must be > 0
+				"DurationOfBreak": 1000,
+				"TimeoutValue": 5000 // take down requests slower than 5 secs
+			},
+			"AuthenticationOptions": {
+				"AuthenticationProviderKey": "Bearer"
+				//"AllowedScopes": [
+				//	"roles"
+				//]
+			},
+			"RouteClaimsRequirement": {
+				"position": "Administrator",
+				"country": "ITA"
+				//"EmailVerified": true
+			}
+		}
+	],
+	"RateLimitOptions": {
+		"EnableRateLimiting": true,
+		"Period": "10s",
+		"PeriodTimespan": 10,
+		"Limit": 3
+	},
+	"FileCacheOptions": {
+		"TtlSeconds": 10 // time-to-live in seconds
+	}
+}
